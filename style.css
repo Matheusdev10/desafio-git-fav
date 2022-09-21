@@ -147,7 +147,7 @@ td.user img {
   border-radius: 50%;
 }
 
-@media (min-width: 320px) {
+@media (max-width: 400px) {
   .search {
     display: flex;
     width: 50%;
