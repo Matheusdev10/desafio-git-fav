@@ -146,3 +146,14 @@ td.user img {
   object-fit: cover;
   border-radius: 50%;
 }
+
+@media (min-width: 320px) {
+  .search {
+    display: flex;
+    width: 50%;
+  }
+
+  .search input {
+    width: 20rem;
+  }
+}

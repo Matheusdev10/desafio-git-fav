@@ -16,6 +16,7 @@ export class Favorites {
   }
   async add(username) {
     try {
+      this.value = '';
       const userExists = this.entries.find(
         (entry) => entry.login.toLowerCase() === username.toLowerCase()
       );
